@@ -1,0 +1,71 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+input, button, a, abbr, address,
+em, img, q, s,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font: 14px 'Inter','Noto Sans KR',sans-serif,Arial ;
+    color: #353535;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption{display:none;}
+button, [type="button"], [type="reset"], [type="submit"]{
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+a{
+    background-color: transparent;
+    display: inline-block;
+    text-decoration: none;
+    color: #353535;
+    box-sizing: border-box;
+}
+span{
+    display: inline-block;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+/* common class */
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0,0 0,0 0);
+}
+

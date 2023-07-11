@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-header">
+                    <a href="index.html">
+                        <h1 class="logo">AdminDemo
+                            <img src="" alt="">
+                        </h1>
+                    </a>                
+                </div>
+                <div class="sidebar-user">
+                    <div class="picture">
+                        <img src="img/user_01.jpg" alt="user01">
+                    </div>
+                    <div class="info">
+                        <div class="dropdown">
+                            <a href="javascript:;" class="name">User Name</a>
+                            <div class="dropdown-menu user-dropdown">
+                                <div class="list-wrap">
+                                    <a href="javascript:void(0)" class="dropdown-item profile">Profile</a>
+                                    <a href="javascript:void(0)" class="dropdown-item analytics">Analytics</a>
+                                    <div class="divider"></div>
+                                    <a href="javascript:void(0)" class="dropdown-item settings">Settings & Privacy</a>
+                                    <a href="javascript:void(0)" class="dropdown-item help">Help Center</a>
+                                    <div class="divider"></div>
+                                    <a href="javascript:void(0)" class="dropdown-item logout">Log out</a>
+                                </div>
+                            </div>    
+                        </div>                                 
+                        <span class="job">User Job</span>
+                    </div>
+                </div>
+                <div class="sidebar-nav">                    
+                    <div class="lnb">
+                        <ul>
+                            <!-- lnb pages -->
+                            <li class="category">Pages</li>
+                            <li class=" on">
+                                <a href="javascript:;" class="dashboard">Dashboards</a>
+                                <ul>                                
+                                    <li class="on"><a href="javascript:;">Analytics</a></li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            E-Commerce
+                                            <span class="badge bg-blue">new</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="javascript:;">Crypto</a></li>
+                                </ul>
+                            </li>                        
+                            <li class="">
+                                <a href="javascript:;" class="page">Pages</a>
+                                <ul>
+                                    <li><a href="javascript:;">Settings</a></li>
+                                    <li><a href="javascript:;">Projects</a></li>
+                                    <li><a href="javascript:;">Clients</a></li>
+                                    <li><a href="javascript:;">Orders</a></li>
+                                    <li><a href="javascript:;">Pricing</a></li>
+                                    <li><a href="javascript:;">Chat</a></li>
+                                    <li><a href="javascript:;">Blank Page</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="javascript:;" class="profile">Profile</a></li>
+                            <li class=""><a href="javascript:;" class="invoice">Invoice</a></li>
+                            <li class="">
+                                <a href="javascript:;" class="tasks">
+                                    Tasks
+                                    <span class="badge bg-blue">new</span>
+                                </a>
+                            </li>
+                            <li class=""><a href="javascript:;" class="calendar">Calendar</a></li>
+                            <li class="">
+                                <a href="javascript:;" class="auth">Auth</a>
+                                <ul>
+                                    <li><a href="javascript:;">Sign In</a></li>
+                                    <li><a href="javascript:;">Sign Up</a></li>
+                                    <li><a href="javascript:;">Reset Password</a></li>
+                                    <li><a href="javascript:;">404 Page</a></li>
+                                    <li><a href="javascript:;">500 Page</a></li>
+                                </ul>
+                            </li>
+                            <!-- //lnb pages -->
+                            <!-- lnb Components -->
+                            <li class="category">Components</li>
+                            <li class="">
+                                <a href="javascript:;" class="elements">UI Elements</a>
+                                <ul>
+                                    <li><a href="javascript:;">Alert</a></li>
+                                    <li><a href="javascript:;">Buttons</a></li>
+                                    <li><a href="javascript:;">Cards</a></li>
+                                    <li><a href="javascript:;">General</a></li>
+                                    <li><a href="javascript:;">Grid</a></li>
+                                    <li><a href="javascript:;">Modals</a></li>
+                                    <li><a href="javascript:;">2Depth</a></li>
+                                    <li><a href="javascript:;">Offcanvas</a></li>
+                                    <li><a href="javascript:;">Placeholders</a></li>
+                                    <li><a href="javascript:;">Typograpy</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="javascript:;" class="icons">
+                                    Icons
+                                    <span class="badge bg-white">1,500+</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="javascript:;" class="forms">Forms</a>
+                                <ul>
+                                    <li><a href="javascript:;">Basic Inputs</a></li>
+                                    <li><a href="javascript:;">Form Layout</a></li>
+                                    <li><a href="javascript:;">Input Groups</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="javascript:;" class="tables">Tables</a></li>
+                            <!-- //lnb Components -->
+                            <!-- Plugins & Addons -->
+                            <li class="category">Plugins & Addons</li>
+                            <li class="">
+                                <a href="javascript:;" class="form-plugin">Form Plugins</a>
+                                <ul>
+                                    <li><a href="javascript:;">Advanced inputs</a></li>
+                                    <li><a href="javascript:;">Editors</a></li>
+                                    <li><a href="javascript:;">Validation</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="javascript:;" class="data-table">DataTables</a>
+                                <ul>
+                                    <li><a href="javascript:;">Responsive Tables</a></li>
+                                    <li><a href="javascript:;">Table with Buttons</a></li>
+                                    <li><a href="javascript:;">Column Search</a></li>
+                                    <li><a href="javascript:;">Fixed Header</a></li>
+                                    <li><a href="javascript:;">Multi Selection</a></li>
+                                    <li><a href="javascript:;">Ajax Sourced Data</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="javascript:;" class="chart">Charts</a>
+                                <ul>
+                                    <li><a href="javascript:;">Chart.js</a></li>
+                                    <li><a href="javascript:;">ApexCharts</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="javascript:;" class="noti">Notifications</a></li>
+                            <li class="">
+                                <a href="javascript:;" class="map">Maps</a>
+                                <ul>
+                                    <li><a href="javascript:;">Google Maps</a></li>
+                                    <li><a href="javascript:;">Vector Maps</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="javascript:;" class="level">Multi Level</a>
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;">Two Level</a>
+                                        <ul>
+                                            <li><a href="javascript:;">Item 1</a></li>
+                                            <li><a href="javascript:;">Item 2</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- //Plugins & Addons -->
+                        </ul>                 
+                    </div>
+                </div>
+                <div class="sidebar-cta">
+                    <div class="cta-content">
+                        <strong>Weekly Sales Report</strong>
+                        <div class="txt">
+                            our weekly sales report is ready for download!
+                        </div>
+                        <div class="btn-group">
+                            <a href="javascript:;" class="btn btn-block" target="_blank">Download</a>
+                        </div>
+                    </div>                    
+                </div>
+            </div>            
+        </div>
+        <!-- //sidebar -->
+        <!-- main -->
+        <div id="main" class="main">
+            <!-- header -->
+            <header class="header">
+                <div class="left">                                       
+                    <a href="javascript:void(0)" class="btn-sidebar-toggle">
+                        <span class="line"></span>                        
+                    </a>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...">
+                        <button class="btn-search">search</button>
+                    </div>
+                    <nav class="nav">
+                        <div class="nav-item dropdown mega-menu">
+                            <a href="" class="nav-link">Mega Menu</a>     
+                            <div class="dropdown-menu">
+                                <div class="dropdown-wrap">
+                                    <div class="dropdown-col">
+                                        <div class="dropdown-header">UI Elements</div>
+                                        <ul>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Alerts</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Buttons</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Cards</a></li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Carousel</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">General</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Grid</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Modals</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Tabs</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Typography</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-col">
+                                        <div class="dropdown-header">Forms</div>
+                                        <ul>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Layouts</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Basic Inputs</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Input Group</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Advanced Inputs</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Editors</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Validation</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Wizard</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-col">
+                                        <div class="dropdown-header">Tables</div>
+                                        <ul>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Basic Tables</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Responsive Table</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Table width Buttons</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Column Search</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Multi Selection</a>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)">Ajax Sourced Data</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>                                    
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="dropdown-list dropdown">
+                                <a href="" class="nav-link">Resources</a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li class="dropdown-list">
+                                            <a href="javascript:void(0)" class="ico ico-home">Homepage</a>
+                                        </li>
+                                        <li class="dropdown-list">
+                                            <a href="javascript:void(0)" class="ico ico-document">Documentation</a>
+                                        </li>
+                                        <li class="dropdown-list">
+                                            <a href="javascript:void(0)" class="ico ico-changelog">Changelog</a>
+                                        </li>                                            
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="right">
+                    <ul class="right-menu">
+                        <li class="header-item dropdown notice">
+                            <a href="javascript:void(0)" class="btn-ico noti">
+                                <span class="indicator">4</span>
+                            </a>
+                            <div class="dropdown-menu end">
+                                <div class="dropdown-col">
+                                    <div class="dropdown-header">
+                                        <span>4</span> New Notifications
+                                    </div>
+                                    <ul class="list-wrap">
+                                        <li>
+                                            <a href="javascript:void(0)" class="list-item">
+                                                <div class="row">
+                                                    <div class="icon-area warning"></div>
+                                                    <div class="text-area">
+                                                        <p class="tit">Update completed</p>
+                                                        <div class="content">Restart server 12 to complete the update.</div>
+                                                        <span class="time">30m ago</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="list-item">
+                                                <div class="row">
+                                                    <div class="icon-area bell"></div>
+                                                    <div class="text-area">
+                                                        <p class="tit">Lorem ipsum</p>
+                                                        <div class="content">Aliquam ex eros, imperdiet vulputate hendrerit et.</div>
+                                                        <span class="time">2h ago</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="list-item">
+                                                <div class="row">
+                                                    <div class="icon-area home"></div>
+                                                    <div class="text-area">
+                                                        <p class="tit">Login from 192.186.1.8</p>                                                
+                                                        <span class="time">5h ago</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="list-item">
+                                                <div class="row">
+                                                    <div class="icon-area user"></div>
+                                                    <div class="text-area">
+                                                        <p class="tit">New connection</p>
+                                                        <div class="content">Christina accepted your request.</div>
+                                                        <span class="time">14h ago</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="dropdown-footer">
+                                        <a href="javascript:void(0)">Show all notifications</a>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </li>
+                        <li class="header-item dropdown messages">
+                            <a href="javascript:void(0)" class="btn-ico messages"></a>
+                            <div class="dropdown-menu end">
+                                <div class="dropdown-col">
+                                    <div class="dropdown-header">
+                                        <span>4</span> New Messages
+                                    </div>
+                                    <ul class="list-wrap">
+                                        <li>
+                                            <a href="javascript:void(0)" class="list-item">
+                                                <div class="row">
+                                                    <div class="icon-area profile">
+                                                        <img src="img/user_02.jpg" alt="user">
+                                                    </div>
+                                                    <div class="text-area">
+                                                        <p class="tit">Vanessa Tucker</p>
+                                                        <div class="content">Nam pretium turpis et arcu. Duis arcu tortor.</div>
+                                                        <span class="time">15m ago</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="list-item">
+                                                <div class="row">
+                                                    <div class="icon-area profile">
+                                                        <img src="img/user_03.jpg" alt="user">
+                                                    </div>
+                                                    <div class="text-area">
+                                                        <p class="tit">William Harris</p>
+                                                        <div class="content">Curabitur ligula sapien euismod vitae.</div>
+                                                        <span class="time">2h ago</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="list-item">
+                                                <div class="row">
+                                                    <div class="icon-area profile">
+                                                        <img src="img/user_04.jpg" alt="user">
+                                                    </div>
+                                                    <div class="text-area">
+                                                        <p class="tit">Christina Mason</p>     
+                                                        <div class="content">Pellentesque auctor neque nec urna.</div>                                           
+                                                        <span class="time">4h ago</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="list-item">
+                                                <div class="row">
+                                                    <div class="icon-area profile">
+                                                        <img src="img/user_05.jpg" alt="user">
+                                                    </div>
+                                                    <div class="text-area">
+                                                        <p class="tit">Sharon Lessman</p>
+                                                        <div class="content">Aenean tellus metus, bibendum sed, posuere ac, mattis non.</div>
+                                                        <span class="time">5h ago</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="dropdown-footer">
+                                        <a href="javascript:void(0)">Show all messages</a>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </li>
+                        <li class="header-item dropdown">
+                            <a href="javascript:void(0)" class="language">
+                                <img src="img/flag_us.png" alt="English">
+                            </a>
+                            <div class="dropdown-menu end">
+                                <ul class="list-wrap">
+                                    <li class="dropdown-list language-list">
+                                        <a href="javascript:void(0)">
+                                            <img src="img/flag_us.png" alt="us">
+                                            <span>English</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-list language-list">
+                                        <a href="javascript:void(0)">
+                                            <img src="img/flag_es.png" alt="us">
+                                            <span>Spanish</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-list language-list">
+                                        <a href="javascript:void(0)">
+                                            <img src="img/flag_ru.png" alt="us">
+                                            <span>Russian</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-list language-list">
+                                        <a href="javascript:void(0)">
+                                            <img src="img/flag_de.png" alt="us">
+                                            <span>German</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header-item">
+                            <a href="javascript:void(0)" class="btn-ico fullscreen"></a>
+                        </li>
+                        <li class="header-item dropdown">
+                            <a href="javascript:void(0)" class="user">
+                                <img src="img/user_01.jpg" alt="사용자01" class="picture">
+                            </a>
+                            <div class="dropdown-menu end user-dropdown">
+                                <div class="list-wrap">
+                                    <a href="javascript:void(0)" class="dropdown-item profile">Profile</a>
+                                    <a href="javascript:void(0)" class="dropdown-item analytics">Analytics</a>
+                                    <div class="divider"></div>
+                                    <a href="javascript:void(0)" class="dropdown-item settings">Settings & Privacy</a>
+                                    <a href="javascript:void(0)" class="dropdown-item help">Help Center</a>
+                                    <div class="divider"></div>
+                                    <a href="javascript:void(0)" class="dropdown-item logout">Log out</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <!-- //header -->
+            <!-- main contents -->
+            <main class="main-content">
+
+            </main>
+            <!-- //main-contents -->
+            <!-- footer -->
+            <footer class="footer">
+                <div class="left">
+                    <a href="javascript:;">AdminDemo</a>
+                    <span class="copyright">©</span>
+                </div>
+                <div class="right">
+                    <ul class="footer-menu">
+                        <li><a href="javascript:;">Surport</a></li>
+                        <li><a href="javascript:;">Help</a></li>
+                        <li><a href="javascript:;">Center</a></li>
+                        <li><a href="javascript:;">Privacy</a></li>
+                        <li><a href="javascript:;">Terms</a></li>
+                    </ul>
+                </div>
+            </footer>
+            <!-- //footer -->
+        </div>
+        <!-- //main-->
+    </div>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/main.js"></script>    
+</body>
+</html>
